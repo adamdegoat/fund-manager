@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fund Manager — Bitcoin & Ethereum Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">◈</span>
+        <div>
+          <span class="brand-name">Fund Manager</span>
+          <span class="brand-tag">Bitcoin &amp; Ethereum Intelligence</span>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="update-pill" id="update-pill">
+          <span class="pulse-dot"></span>
+          <span id="update-text">Loading...</span>
+        </div>
+        <div class="disclaimer-link"><a href="#disclaimer">Disclaimer</a></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main-content">
+
+    <!-- ASSET CARDS -->
+    <section class="asset-grid">
+      <div class="asset-card" id="btc-card">
+        <div class="card-loading"><div class="spinner"></div></div>
+      </div>
+      <div class="asset-card" id="eth-card">
+        <div class="card-loading"><div class="spinner"></div></div>
+      </div>
+    </section>
+
+    <!-- SIGNAL BREAKDOWN -->
+    <section class="panel" id="signal-panel">
+      <h2 class="panel-title">Signal Breakdown</h2>
+      <div class="signal-grid" id="signal-grid">
+        <div class="card-loading"><div class="spinner"></div></div>
+      </div>
+    </section>
+
+    <!-- SENTIMENT PANEL -->
+    <section class="panel" id="sentiment-panel">
+      <h2 class="panel-title">Market Sentiment</h2>
+      <div class="sentiment-grid" id="sentiment-grid">
+        <div class="card-loading"><div class="spinner"></div></div>
+      </div>
+    </section>
+
+    <!-- NEWS PANEL -->
+    <section class="panel" id="news-panel">
+      <h2 class="panel-title">
+        Latest Headlines
+        <span class="panel-subtitle">Context only — not used in signal generation</span>
+      </h2>
+      <div class="news-grid" id="news-grid">
+        <div class="card-loading"><div class="spinner"></div></div>
+      </div>
+    </section>
+
+    <!-- DISCLAIMER -->
+    <section class="panel disclaimer" id="disclaimer">
+      <p>
+        <strong>Disclaimer:</strong> Fund Manager is an automated signal intelligence tool.
+        All information presented is for informational purposes only and does not constitute
+        financial advice. Past signals do not guarantee future results. Always conduct your
+        own research before making investment decisions. Crypto assets are volatile and
+        carry significant risk.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>Fund Manager &copy; 2026</span>
+    <span class="footer-sep">·</span>
+    <a href="https://adamdegoat.github.io" target="_blank">Developer Hub</a>
+  </footer>
+
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

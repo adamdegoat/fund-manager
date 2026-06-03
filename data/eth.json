@@ -1,1 +1,99 @@
-{"symbol":"ETH","etf":"ETHA","price":null,"change_24h":null,"levels":{},"verdict":"HOLD","score":0,"summary":"Initializing data — first update running shortly.","moomoo":{"note":"Data loading, please wait.","avoid":""},"tf_table":{},"sentiment":{"fear_greed":{"value":50,"label":"Neutral"},"funding":{"rate":0,"label":"—"},"dominance":{"btc":null,"eth":null}},"onchain":{},"news":[]}
+{
+  "symbol": "ETH",
+  "etf": "ETHA",
+  "price": 1876.98,
+  "change_24h": 1.04,
+  "levels": {
+    "support": [
+      2060.45,
+      1965.77
+    ],
+    "resistance": [
+      2379.49,
+      2422.87
+    ],
+    "range_high": 2464.78,
+    "range_low": 1817.62
+  },
+  "verdict": "AVOID",
+  "score": -5.65,
+  "summary": "ETH is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 25.2 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
+  "moomoo": {
+    "can_hold": false,
+    "can_add": false,
+    "note": "Stay out. No exposure to ETHA until trend conditions improve.",
+    "avoid": "Do not buy or hold. Wait for the signal to recover."
+  },
+  "tf_table": {
+    "m15": {
+      "trend": "Mixed",
+      "rsi": 58.5,
+      "rsi_label": "Bullish Momentum",
+      "macd": "Bullish",
+      "volume": "Low"
+    },
+    "h1": {
+      "trend": "Bearish",
+      "rsi": 40.3,
+      "rsi_label": "Weak Momentum",
+      "macd": "Bearish",
+      "volume": "Normal"
+    },
+    "h4": {
+      "trend": "Bearish",
+      "rsi": 33.1,
+      "rsi_label": "Weak Momentum",
+      "macd": "Bearish",
+      "volume": "High"
+    },
+    "daily": {
+      "trend": "Bearish",
+      "rsi": 25.2,
+      "rsi_label": "Oversold",
+      "macd": "Bearish",
+      "volume": "High"
+    }
+  },
+  "sentiment": {
+    "fear_greed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "funding": {
+      "rate": 0.002,
+      "annualized": 2.21,
+      "label": "Neutral"
+    },
+    "dominance": {
+      "btc": 56.1,
+      "eth": 9.4
+    }
+  },
+  "onchain": {
+    "mempool": {
+      "fast_fee": 3,
+      "congestion": "Low \u2014 network quiet"
+    },
+    "hashrate": {
+      "hashrate_th": 0.6,
+      "label": "1 TH/s"
+    }
+  },
+  "news": [
+    {
+      "title": "Bullish crypto bets lose $1.6 billion as ETH, SOL, DOGE drop 9%",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bullish-crypto-bets-lose-usd1-6-billion-as-eth-sol-doge-drop-9",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
+      "url": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Tom Lee predicts ether will hit $250,000 as corporate validators take over network control",
+      "url": "https://www.coindesk.com/markets/2026/06/02/tom-lee-predicts-eth-will-hit-usd250-000-as-corporate-validators-take-over-network-control",
+      "sentiment": "neutral"
+    }
+  ]
+}

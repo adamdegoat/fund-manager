@@ -1,1 +1,99 @@
-{"symbol":"BTC","etf":"IBIT","price":null,"change_24h":null,"levels":{},"verdict":"HOLD","score":0,"summary":"Initializing data — first update running shortly.","moomoo":{"note":"Data loading, please wait.","avoid":""},"tf_table":{},"sentiment":{"fear_greed":{"value":50,"label":"Neutral"},"funding":{"rate":0,"label":"—"},"dominance":{"btc":null,"eth":null}},"onchain":{},"news":[]}
+{
+  "symbol": "BTC",
+  "etf": "IBIT",
+  "price": 67272.14,
+  "change_24h": 0.85,
+  "levels": {
+    "support": [
+      72481.86,
+      67684.01
+    ],
+    "resistance": [
+      79679.99,
+      82021.97
+    ],
+    "range_high": 82792.21,
+    "range_low": 65603.85
+  },
+  "verdict": "AVOID",
+  "score": -3.65,
+  "summary": "BTC is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 24.6 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
+  "moomoo": {
+    "can_hold": false,
+    "can_add": false,
+    "note": "Stay out. No exposure to IBIT until trend conditions improve.",
+    "avoid": "Do not buy or hold. Wait for the signal to recover."
+  },
+  "tf_table": {
+    "m15": {
+      "trend": "Mixed",
+      "rsi": 59.2,
+      "rsi_label": "Bullish Momentum",
+      "macd": "Bullish",
+      "volume": "Normal"
+    },
+    "h1": {
+      "trend": "Bearish",
+      "rsi": 42.6,
+      "rsi_label": "Weak Momentum",
+      "macd": "Bullish",
+      "volume": "High"
+    },
+    "h4": {
+      "trend": "Bearish",
+      "rsi": 27.3,
+      "rsi_label": "Oversold",
+      "macd": "Bearish",
+      "volume": "High"
+    },
+    "daily": {
+      "trend": "Bearish",
+      "rsi": 24.6,
+      "rsi_label": "Oversold",
+      "macd": "Bearish",
+      "volume": "High"
+    }
+  },
+  "sentiment": {
+    "fear_greed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "funding": {
+      "rate": 0.0072,
+      "annualized": 7.85,
+      "label": "Neutral"
+    },
+    "dominance": {
+      "btc": 56.1,
+      "eth": 9.4
+    }
+  },
+  "onchain": {
+    "mempool": {
+      "fast_fee": 3,
+      "congestion": "Low \u2014 network quiet"
+    },
+    "hashrate": {
+      "hashrate_th": 0.6,
+      "label": "1 TH/s"
+    }
+  },
+  "news": [
+    {
+      "title": "Bitcoin's 'fear gauge' surges nearly 20%, its biggest jump since Feb. 5 crash",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-s-fear-gauge-surges-nearly-20-its-biggest-jump-since-feb-5-crash",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Bitcoin plunges below $66,000 as global stocks, AI trades hit fresh records",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-plunges-below-usd66-000-even-as-global-stocks-hit-fresh-records",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Bitcoin's slide to $66,000 is accelerating a shift into digital dollars",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-s-slide-to-usd67-000-is-accelerating-a-shift-into-digital-dollars",
+      "sentiment": "neutral"
+    }
+  ]
+}

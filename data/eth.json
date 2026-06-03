@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1796.93,
-  "change_24h": -3.27,
+  "price": 1782.24,
+  "change_24h": -4.06,
   "levels": {
     "support": [
       2060.45,
@@ -13,11 +13,11 @@
       2422.87
     ],
     "range_high": 2464.78,
-    "range_low": 1796.89
+    "range_low": 1784.1
   },
   "verdict": "REDUCE",
   "score": -1.01,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.007%). Market sentiment: extreme fear (11/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.4%.",
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.8 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.007%). Market sentiment: extreme fear (11/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.0%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 31.4,
-      "rsi_label": "Weak Momentum",
+      "rsi": 26.8,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 23.5,
+      "rsi": 21.2,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 24.5,
+      "rsi": 23.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.3,
+      "rsi": 18.8,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,8 +65,8 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.8,
-      "eth": 9.3
+      "btc": 55.7,
+      "eth": 9.2
     }
   },
   "onchain": {
@@ -81,9 +81,9 @@
   },
   "news": [
     {
-      "title": "Bullish crypto bets lose $1.6 billion as ETH, SOL, DOGE drop 9%",
-      "url": "https://www.coindesk.com/markets/2026/06/03/bullish-crypto-bets-lose-usd1-6-billion-as-eth-sol-doge-drop-9",
-      "sentiment": "neutral"
+      "title": "Bitmine's Ethereum bet nears $9 billion loss as ether falls below $1,800",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitmine-s-ethereum-bet-nears-usd9-billion-loss-as-ether-falls-below-usd1-800",
+      "sentiment": "negative"
     },
     {
       "title": "Ethereum drops to 14-week lows: Can ETH price hold $1.8K support?",

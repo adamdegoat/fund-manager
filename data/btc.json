@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 65230.99,
-  "change_24h": -2.21,
+  "price": 64990.25,
+  "change_24h": -2.57,
   "levels": {
     "support": [
       72481.86,
@@ -13,11 +13,11 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 65236.48
+    "range_low": 65028.56
   },
   "verdict": "REDUCE",
-  "score": -1.81,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 4th percentile of its 52-week range. 30-day price momentum: -18.3%.",
+  "score": -1.59,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 4th percentile of its 52-week range. 30-day price momentum: -18.6%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 33.1,
-      "rsi_label": "Weak Momentum",
+      "rsi": 29.7,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 27.1,
+      "rsi": 25.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 20.4,
+      "rsi": 19.8,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.9,
+      "rsi": 19.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,8 +65,8 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.8,
-      "eth": 9.3
+      "btc": 55.7,
+      "eth": 9.2
     }
   },
   "onchain": {
@@ -81,18 +81,18 @@
   },
   "news": [
     {
-      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) falls 10.7%, leading index lower",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/06/03/coindesk-20-performance-update-bitcoin-cash-bch-falls-10-7-leading-index-lower",
+      "title": "Bitcoin isn't crashing because of Saylor, it's losing the momentum trade",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-isn-t-crashing-because-of-saylor-it-s-losing-the-momentum-trade",
       "sentiment": "negative"
     },
     {
-      "title": "Live markets: What's next as bitcoin re-tests February low for third time",
-      "url": "https://www.coindesk.com/markets/2026/06/03/live-markets-what-s-next-as-bitcoin-re-tests-february-low-for-third-time",
+      "title": "Rare physical bitcoin worth $1.78 million gets cashed in after 12 years",
+      "url": "https://www.coindesk.com/markets/2026/06/03/rare-physical-bitcoin-worth-usd1-78-million-gets-cashed-in-after-12-years",
       "sentiment": "neutral"
     },
     {
-      "title": "Bitcoin hits Power Law level low that historically precedes a rebound",
-      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-hits-power-law-level-low-that-historically-precedes-a-rebound",
+      "title": "Bitcoin's dearth of fresh investors matters more than Strategy's sale, Citi says",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-s-lack-of-fresh-investors-matters-more-than-strategy-s-sale-citi-says",
       "sentiment": "neutral"
     }
   ]

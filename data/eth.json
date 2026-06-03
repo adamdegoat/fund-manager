@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1876.31,
-  "change_24h": 1.0,
+  "price": 1873.23,
+  "change_24h": 0.83,
   "levels": {
     "support": [
       2060.45,
@@ -15,40 +15,40 @@
     "range_high": 2464.78,
     "range_low": 1817.62
   },
-  "verdict": "AVOID",
-  "score": -4.8,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI weak at 25.1, selling pressure dominant. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -20.0%.",
+  "verdict": "REDUCE",
+  "score": -2.99,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 24.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -20.2%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
-    "note": "No new exposure to ETHA until conditions improve.",
-    "avoid": "Do not buy or hold aggressively. Wait for signals to recover."
+    "note": "Consider trimming ETHA exposure into current strength.",
+    "avoid": "Do not add. Risk of a sharper move down is elevated."
   },
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 51.5,
+      "rsi": 48.3,
       "rsi_label": "Neutral",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "High"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 41.6,
+      "rsi": 40.5,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "High"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 33.0,
+      "rsi": 32.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 25.1,
+      "rsi": 24.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 1,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

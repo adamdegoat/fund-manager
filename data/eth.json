@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1871.28,
-  "change_24h": 0.73,
+  "price": 1874.17,
+  "change_24h": 0.89,
   "levels": {
     "support": [
       2060.45,
@@ -17,7 +17,7 @@
   },
   "verdict": "AVOID",
   "score": -5.15,
-  "summary": "ETH is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 24.3 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
+  "summary": "ETH is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 24.8 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.1,
-      "rsi_label": "Neutral",
+      "rsi": 56.1,
+      "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 38.4,
+      "rsi": 39.6,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 31.7,
+      "rsi": 32.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 24.3,
+      "rsi": 24.8,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

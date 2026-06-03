@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 67000.0,
-  "change_24h": 0.44,
+  "price": 67112.42,
+  "change_24h": 0.61,
   "levels": {
     "support": [
       72481.86,
@@ -17,7 +17,7 @@
   },
   "verdict": "AVOID",
   "score": -3.65,
-  "summary": "BTC is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 23.3 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
+  "summary": "BTC is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 23.8 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 53.3,
-      "rsi_label": "Neutral",
+      "rsi": 55.6,
+      "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 40.8,
+      "rsi": 42.1,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 24.8,
+      "rsi": 25.8,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 23.3,
+      "rsi": 23.8,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

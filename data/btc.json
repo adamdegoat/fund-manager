@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 67045.74,
-  "change_24h": 0.51,
+  "price": 67094.1,
+  "change_24h": 0.59,
   "levels": {
     "support": [
       72481.86,
@@ -17,7 +17,7 @@
   },
   "verdict": "REDUCE",
   "score": -2.36,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 23.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (11/100). Price sits at the 7th percentile of its 52-week range. 30-day price momentum: -16.0%.",
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 23.7 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (11/100). Price sits at the 7th percentile of its 52-week range. 30-day price momentum: -15.9%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 52.4,
+      "rsi": 54.0,
       "rsi_label": "Neutral",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 42.9,
+      "rsi": 43.6,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 26.2,
+      "rsi": 26.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 23.5,
+      "rsi": 23.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.9,
+      "btc": 56.0,
       "eth": 9.4
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 4,
+      "fast_fee": 2,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,18 +81,18 @@
   },
   "news": [
     {
+      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) falls 10.7%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/03/coindesk-20-performance-update-bitcoin-cash-bch-falls-10-7-leading-index-lower",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Live markets: What's next as bitcoin re-tests February low for third time",
+      "url": "https://www.coindesk.com/markets/2026/06/03/live-markets-what-s-next-as-bitcoin-re-tests-february-low-for-third-time",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Bitcoin hits Power Law level low that historically precedes a rebound",
       "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-hits-power-law-level-low-that-historically-precedes-a-rebound",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Bitcoin momentum gauge hints at recovery. Experts remain cautious.",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/03/bitcoin-momentum-gauge-hints-at-recovery-experts-remain-cautious",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Bitcoin steadies at $67,000, faces critical juncture after sliding 9.5% in seven days",
-      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-steadies-at-usd67-000-faces-critical-juncture-after-sliding-9-5-in-seven-days",
       "sentiment": "neutral"
     }
   ]

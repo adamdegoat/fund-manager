@@ -565,6 +565,142 @@ table.signal-table {
 
 @keyframes spin { to { transform: rotate(360deg); } }
 
+/* ── L9 INTELLIGENCE ───────────────────────────────────────── */
+.l9-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.l9-stat-card {
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.l9-stat-value {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--blue);
+  font-variant-numeric: tabular-nums;
+}
+
+.l9-stat-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.strategy-table-wrap { margin-top: 4px; }
+
+table.strategy-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.strategy-table th {
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 10px;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.strategy-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(30, 45, 69, 0.4);
+  color: var(--text-dim);
+  vertical-align: middle;
+}
+
+.strategy-table tr:last-child td { border-bottom: none; }
+
+.status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.status-paper    { background: var(--blue-dim); color: var(--blue); }
+.status-promoted { background: var(--green-dim); color: var(--green); }
+.status-retired  { background: rgba(122,139,168,0.1); color: var(--text-muted); }
+
+.l9-empty {
+  text-align: center;
+  padding: 32px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.l9-empty p { margin-bottom: 6px; }
+.l9-empty small { font-size: 11px; }
+
+/* ── PAPER PORTFOLIO ───────────────────────────────────────── */
+.portfolio-header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.portfolio-chart-wrap {
+  margin-bottom: 20px;
+  position: relative;
+  height: 160px;
+}
+
+.trades-section { }
+
+.trades-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+table.trades-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.trades-table th {
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-size: 9px;
+  padding: 5px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.trades-table td {
+  padding: 7px 8px;
+  border-bottom: 1px solid rgba(30, 45, 69, 0.4);
+  color: var(--text-dim);
+}
+
+.trades-table tr:last-child td { border-bottom: none; }
+
+.pnl-pos { color: var(--green); font-weight: 600; }
+.pnl-neg { color: var(--red); font-weight: 600; }
+
 /* ── SCROLLBAR ─────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }

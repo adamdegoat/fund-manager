@@ -243,19 +243,238 @@ function renderMeta(meta) {
   el.textContent = `Updated ${timeAgo(meta.last_updated)}`;
 }
 
+// ── render L9 intelligence panel ─────────────────────────────
+function renderL9(l9) {
+  const el = document.getElementById('l9-grid');
+  if (!l9) { el.innerHTML = '<div class="l9-empty"><p>L9 data unavailable</p></div>'; return; }
+
+  const active   = l9.active_count   ?? 0;
+  const paper    = l9.paper_count    ?? 0;
+  const promoted = l9.promoted_count ?? 0;
+  const retired  = l9.retired_count  ?? 0;
+  const rejected = l9.rejected_count ?? 0;
+
+  const strats = l9.active_strategies || [];
+
+  const statsHtml = `
+    <div class="l9-stats">
+      <div class="l9-stat-card">
+        <div class="l9-stat-value" style="color:var(--blue)">${active}</div>
+        <div class="l9-stat-label">Active Strategies</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value" style="color:var(--green)">${promoted}</div>
+        <div class="l9-stat-label">Promoted</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value" style="color:var(--blue)">${paper}</div>
+        <div class="l9-stat-label">In Paper</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value" style="color:var(--text-muted)">${retired}</div>
+        <div class="l9-stat-label">Retired</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value" style="color:var(--text-muted)">${rejected}</div>
+        <div class="l9-stat-label">Rejected</div>
+      </div>
+    </div>
+  `;
+
+  let tableHtml = '';
+  if (strats.length === 0) {
+    tableHtml = `
+      <div class="l9-empty">
+        <p>No active strategies yet.</p>
+        <small>The L9 engine invents strategies weekly. First cycle will populate this table.</small>
+      </div>
+    `;
+  } else {
+    const rows = strats.map(s => `
+      <tr>
+        <td style="color:var(--text);font-weight:500">${s.name}</td>
+        <td><span class="tag tag-neutral">${s.family.replace(/_/g,' ')}</span></td>
+        <td>${s.asset}</td>
+        <td><span class="status-badge status-${s.status}">${s.status}</span></td>
+        <td>${s.promoted_at || '—'}</td>
+      </tr>
+    `).join('');
+    tableHtml = `
+      <div class="strategy-table-wrap">
+        <table class="strategy-table">
+          <thead><tr>
+            <th>Strategy</th><th>Family</th><th>Asset</th><th>Status</th><th>Since</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  el.innerHTML = statsHtml + tableHtml;
+}
+
+// ── render paper portfolio ────────────────────────────────────
+let equityChart = null;
+
+function renderPortfolio(l9) {
+  const el = document.getElementById('portfolio-grid');
+  if (!l9 || !l9.portfolio) {
+    el.innerHTML = '<div class="l9-empty"><p>Portfolio data unavailable</p></div>';
+    return;
+  }
+
+  const p   = l9.portfolio;
+  const roi = p.roi_pct ?? 0;
+  const wr  = p.win_rate != null ? (p.win_rate * 100).toFixed(1) + '%' : '—';
+  const roiColor = roi >= 0 ? 'var(--green)' : 'var(--red)';
+  const roiSign  = roi >= 0 ? '+' : '';
+
+  const headerHtml = `
+    <div class="portfolio-header">
+      <div class="l9-stat-card">
+        <div class="l9-stat-value">$${fmt(p.equity)}</div>
+        <div class="l9-stat-label">Portfolio Value</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value" style="color:${roiColor}">${roiSign}${fmt(roi)}%</div>
+        <div class="l9-stat-label">Total ROI</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value">${p.open_trades ?? 0}</div>
+        <div class="l9-stat-label">Open Trades</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value">${wr}</div>
+        <div class="l9-stat-label">Win Rate</div>
+      </div>
+      <div class="l9-stat-card">
+        <div class="l9-stat-value">${p.total_trades ?? 0}</div>
+        <div class="l9-stat-label">Total Trades</div>
+      </div>
+    </div>
+  `;
+
+  // equity chart
+  const chartHtml = `<div class="portfolio-chart-wrap"><canvas id="equity-chart"></canvas></div>`;
+
+  // open positions
+  let openHtml = '';
+  const openPos = p.open_positions || [];
+  if (openPos.length > 0) {
+    const rows = openPos.map(t => {
+      const upnl = t.unrealised_pct ?? 0;
+      const cls  = upnl >= 0 ? 'pnl-pos' : 'pnl-neg';
+      const sign = upnl >= 0 ? '+' : '';
+      return `<tr>
+        <td style="color:var(--text)">${t.strategy_name || t.strategy_id}</td>
+        <td>${t.asset}</td>
+        <td>$${fmt(t.entry_price)}</td>
+        <td>$${fmt(t.current_price)}</td>
+        <td class="${cls}">${sign}${fmt(upnl)}%</td>
+        <td>${t.days_held ?? 0}d</td>
+      </tr>`;
+    }).join('');
+    openHtml = `
+      <div class="trades-section">
+        <div class="trades-title">Open Positions (${openPos.length})</div>
+        <table class="trades-table">
+          <thead><tr><th>Strategy</th><th>Asset</th><th>Entry</th><th>Current</th><th>Unrealised</th><th>Days</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  // recent closed trades
+  let closedHtml = '';
+  const recent = (p.recent_trades || []).slice().reverse().slice(0, 8);
+  if (recent.length > 0) {
+    const rows = recent.map(t => {
+      const pnl = t.pnl_pct ?? 0;
+      const cls = pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
+      const sign = pnl >= 0 ? '+' : '';
+      return `<tr>
+        <td style="color:var(--text)">${t.strategy_name || t.strategy_id || '—'}</td>
+        <td>${t.asset}</td>
+        <td>${t.entry_date}</td>
+        <td>${t.exit_date}</td>
+        <td class="${cls}">${sign}${fmt(pnl)}%</td>
+        <td class="${cls}">$${fmt(t.pnl_dollar ?? 0)}</td>
+      </tr>`;
+    }).join('');
+    closedHtml = `
+      <div class="trades-section" style="margin-top:20px">
+        <div class="trades-title">Recent Closed Trades</div>
+        <table class="trades-table">
+          <thead><tr><th>Strategy</th><th>Asset</th><th>Entry</th><th>Exit</th><th>P&amp;L %</th><th>P&amp;L $</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
+  } else {
+    closedHtml = '<div class="l9-empty" style="padding:16px"><small>No completed trades yet — strategies are paper incubating.</small></div>';
+  }
+
+  el.innerHTML = headerHtml + chartHtml + openHtml + closedHtml;
+
+  // draw equity curve
+  const history = p.equity_history || [];
+  if (history.length > 1 && window.Chart) {
+    const ctx = document.getElementById('equity-chart');
+    if (equityChart) equityChart.destroy();
+    equityChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: history.map(h => h.date),
+        datasets: [{
+          data: history.map(h => h.equity),
+          borderColor: '#4a9eff',
+          backgroundColor: 'rgba(74,158,255,0.06)',
+          borderWidth: 1.5,
+          pointRadius: 0,
+          fill: true,
+          tension: 0.3,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: {
+          callbacks: { label: ctx => '$' + ctx.parsed.y.toLocaleString('en-US', {minimumFractionDigits:2}) }
+        }},
+        scales: {
+          x: { display: false },
+          y: {
+            grid: { color: 'rgba(30,45,69,0.5)' },
+            ticks: { color: '#4a5d78', font: { size: 10 },
+              callback: v => '$' + (v/1000).toFixed(1) + 'k' }
+          }
+        }
+      }
+    });
+  } else if (history.length <= 1) {
+    const ctx = document.getElementById('equity-chart');
+    if (ctx) ctx.parentElement.innerHTML = '<div class="l9-empty" style="padding:20px"><small>Equity curve will appear after the first completed trade.</small></div>';
+  }
+}
+
 // ── main refresh ──────────────────────────────────────────────
 async function refresh() {
   try {
-    const [btc, eth, meta] = await Promise.all([
+    const [btc, eth, meta, l9] = await Promise.all([
       fetchJSON(BASE + 'btc.json'),
       fetchJSON(BASE + 'eth.json'),
       fetchJSON(BASE + 'meta.json'),
+      fetchJSON(BASE + 'l9.json').catch(() => null),
     ]);
 
     renderCard('btc-card', btc);
     renderCard('eth-card', eth);
     renderSignals(btc, eth);
     renderSentiment(btc, eth);
+    renderL9(l9);
+    renderPortfolio(l9);
     renderNews(btc, eth);
     renderMeta(meta);
   } catch (err) {

@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1838.75,
-  "change_24h": -1.02,
+  "price": 1845.3,
+  "change_24h": -0.67,
   "levels": {
     "support": [
       2060.45,
@@ -16,8 +16,8 @@
     "range_low": 1779.03
   },
   "verdict": "REDUCE",
-  "score": -2.64,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 21.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.007%). Market sentiment: extreme fear (11/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -21.6%.",
+  "score": -2.19,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 21.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.007%). Market sentiment: extreme fear (11/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -21.4%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 57.0,
+      "rsi": 58.9,
       "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 44.0,
-      "rsi_label": "Weak Momentum",
-      "macd": "Bearish",
-      "volume": "High"
+      "rsi": 45.8,
+      "rsi_label": "Neutral",
+      "macd": "Bullish",
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 33.9,
+      "rsi": 35.3,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 21.1,
+      "rsi": 21.4,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 5,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -86,14 +86,14 @@
       "sentiment": "negative"
     },
     {
+      "title": "Price predictions 6/3: BTC, ETH, BNB, XRP, SOL, HYPE, DOGE, ZEC, ADA, XLM",
+      "url": "https://cointelegraph.com/markets/price-predictions-63-btc-eth-bnb-xrp-sol-hype-doge-zec-ada-xlm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Ethereum drops to 14-week lows: Can ETH price hold $1.8K support?",
       "url": "https://cointelegraph.com/markets/ethereum-drops-to-14-week-lows-can-eth-price-hold-18k-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "sentiment": "negative"
-    },
-    {
-      "title": "Tether Debuts Tokenized Gold Stablecoin Visa Card That Pays Out Crypto Rewards",
-      "url": "https://decrypt.co/369972/tether-tokenized-gold-visa-stablecoin-card-pays-crypto-rewards",
-      "sentiment": "neutral"
     }
   ]
 }

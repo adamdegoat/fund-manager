@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1881.2,
-  "change_24h": 1.26,
+  "price": 1884.24,
+  "change_24h": 1.43,
   "levels": {
     "support": [
       2060.45,
@@ -16,8 +16,8 @@
     "range_low": 1817.62
   },
   "verdict": "AVOID",
-  "score": -3.84,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI weak at 25.9, selling pressure dominant. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -19.8%.",
+  "score": -4.09,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI weak at 26.4, selling pressure dominant. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -19.7%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 58.2,
+      "rsi": 60.5,
       "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 43.1,
+      "rsi": 44.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 34.2,
+      "rsi": 34.9,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 25.9,
+      "rsi": 26.4,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,7 +65,7 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.0,
+      "btc": 55.9,
       "eth": 9.4
     }
   },
@@ -75,7 +75,7 @@
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.6,
+      "hashrate_th": 0.7,
       "label": "1 TH/s"
     }
   },

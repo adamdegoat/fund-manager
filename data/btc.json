@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 67106.14,
-  "change_24h": 0.6,
+  "price": 67247.99,
+  "change_24h": 0.82,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 65603.85
   },
   "verdict": "REDUCE",
-  "score": -1.44,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 23.8 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (11/100). Price sits at the 7th percentile of its 52-week range. 30-day price momentum: -15.9%.",
+  "score": -1.69,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 24.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (11/100). Price sits at the 7th percentile of its 52-week range. 30-day price momentum: -15.8%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.7,
-      "rsi_label": "Neutral",
+      "rsi": 58.2,
+      "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 42.9,
+      "rsi": 44.7,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 25.9,
+      "rsi": 27.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 23.8,
+      "rsi": 24.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,7 +65,7 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.0,
+      "btc": 55.9,
       "eth": 9.4
     }
   },
@@ -75,7 +75,7 @@
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.6,
+      "hashrate_th": 0.7,
       "label": "1 TH/s"
     }
   },

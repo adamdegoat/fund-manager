@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 67029.85,
-  "change_24h": 0.49,
+  "price": 67132.03,
+  "change_24h": 0.64,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 65603.85
   },
   "verdict": "REDUCE",
-  "score": -2.16,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 23.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (11/100). Price sits at the 7th percentile of its 52-week range. 30-day price momentum: -16.0%.",
+  "score": -1.89,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 23.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (11/100). Price sits at the 7th percentile of its 52-week range. 30-day price momentum: -15.9%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.0,
-      "rsi_label": "Neutral",
-      "macd": "Bearish",
+      "rsi": 55.7,
+      "rsi_label": "Bullish Momentum",
+      "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 41.9,
+      "rsi": 43.2,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 25.6,
+      "rsi": 26.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 23.4,
+      "rsi": 23.9,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"

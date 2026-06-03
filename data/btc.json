@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 67034.49,
-  "change_24h": 0.5,
+  "price": 67093.27,
+  "change_24h": 0.58,
   "levels": {
     "support": [
       72481.86,
@@ -17,7 +17,7 @@
   },
   "verdict": "AVOID",
   "score": -3.65,
-  "summary": "BTC is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 23.4 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
+  "summary": "BTC is trading below its key moving averages \u2014 the downtrend is intact. RSI is oversold at 23.7 \u2014 historically a mean-reversion opportunity. The 4H timeframe is showing weakness. Market sentiment is extreme fear (11/100).",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.3,
-      "rsi_label": "Neutral",
+      "rsi": 55.3,
+      "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 41.2,
+      "rsi": 41.9,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 25.1,
+      "rsi": 25.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 23.4,
+      "rsi": 23.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -75,11 +75,16 @@
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.7,
+      "hashrate_th": 0.6,
       "label": "1 TH/s"
     }
   },
   "news": [
+    {
+      "title": "Prediction market traders bet bitcoin's selloff has further to run",
+      "url": "https://www.coindesk.com/markets/2026/06/03/kalshi-traders-bet-bitcoin-s-selloff-has-further-to-run",
+      "sentiment": "negative"
+    },
     {
       "title": "Bitcoin's 'fear gauge' surges nearly 20%, its biggest jump since Feb. 5 crash",
       "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-s-fear-gauge-surges-nearly-20-its-biggest-jump-since-feb-5-crash",
@@ -89,11 +94,6 @@
       "title": "Bitcoin plunges below $66,000 as global stocks, AI trades hit fresh records",
       "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-plunges-below-usd66-000-even-as-global-stocks-hit-fresh-records",
       "sentiment": "positive"
-    },
-    {
-      "title": "Bitcoin's slide to $66,000 is accelerating a shift into digital dollars",
-      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-s-slide-to-usd67-000-is-accelerating-a-shift-into-digital-dollars",
-      "sentiment": "neutral"
     }
   ]
 }

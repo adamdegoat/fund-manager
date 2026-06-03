@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 65132.18,
-  "change_24h": -2.36,
+  "price": 64919.33,
+  "change_24h": -2.68,
   "levels": {
     "support": [
       72481.86,
@@ -13,11 +13,11 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 64920.55
+    "range_low": 64890.68
   },
   "verdict": "REDUCE",
-  "score": -1.33,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.7 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 4th percentile of its 52-week range. 30-day price momentum: -18.4%.",
+  "score": -1.44,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 4th percentile of its 52-week range. 30-day price momentum: -18.7%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 38.9,
+      "rsi": 35.7,
       "rsi_label": "Weak Momentum",
-      "macd": "Bullish",
-      "volume": "Low"
+      "macd": "Bearish",
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 33.2,
+      "rsi": 31.8,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 20.1,
+      "rsi": 19.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.7,
+      "rsi": 19.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"

@@ -33,6 +33,42 @@
   <!-- MAIN -->
   <main class="main-content">
 
+    <!-- SYSTEM STATUS -->
+    <div class="status-bar" id="status-bar">
+      <div class="status-updated">
+        <span class="status-dot">&#9679;</span>
+        <div>
+          <div class="status-ts-main" id="status-ts-main">—</div>
+          <div class="status-ts-sub" id="status-ts-sub">—</div>
+        </div>
+      </div>
+      <div class="status-cycles">
+        <span class="cycles-val" id="status-cycles">—</span>
+        <span class="cycles-lbl">runs today</span>
+      </div>
+      <div class="status-schedule">
+        <table class="sched-table">
+          <thead>
+            <tr><th>Component</th><th>Schedule</th><th>Last Run</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Market Engine</td>
+              <td>Every 15 min</td>
+              <td id="sched-engine-last">—</td>
+              <td id="sched-engine-status"><span class="sched-ok">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>L9 Strategy Cycle</td>
+              <td>Weekly · Sun 00:00 SGT</td>
+              <td id="sched-l9-last">—</td>
+              <td id="sched-l9-status"><span class="sched-pending">&#9679;</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
     <!-- ASSET CARDS -->
     <section class="asset-grid">
       <div class="asset-card" id="btc-card">

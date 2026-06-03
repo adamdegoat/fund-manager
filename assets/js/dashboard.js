@@ -241,6 +241,54 @@ function renderMeta(meta) {
   const el = document.getElementById('update-text');
   if (!meta) { el.textContent = 'Data unavailable'; return; }
   el.textContent = `Updated ${timeAgo(meta.last_updated)}`;
+  renderStatus(meta);
+}
+
+// ── render system status bar ──────────────────────────────────
+function fmtTs(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    return d.toLocaleString('en-SG', {
+      timeZone:'Asia/Singapore', month:'short', day:'numeric',
+      hour:'2-digit', minute:'2-digit'
+    }) + ' SGT';
+  } catch { return iso; }
+}
+
+function renderStatus(meta) {
+  if (!meta) return;
+  const ts   = meta.last_updated;
+  const diff = ts ? Math.floor((Date.now() - new Date(ts).getTime()) / 1000) : null;
+
+  const main = document.getElementById('status-ts-main');
+  const sub  = document.getElementById('status-ts-sub');
+  const cyc  = document.getElementById('status-cycles');
+  if (main) main.textContent = fmtTs(ts);
+  if (sub)  sub.textContent  = diff != null
+    ? timeAgo(meta.last_updated) + ' · Auto-refreshes every 15 min'
+    : '—';
+  if (cyc)  cyc.textContent  = meta.cycles_today ?? '—';
+
+  // Engine row
+  const engineLast   = document.getElementById('sched-engine-last');
+  const engineStatus = document.getElementById('sched-engine-status');
+  if (engineLast)   engineLast.textContent = fmtTs(ts);
+  if (engineStatus) {
+    const staleMin = diff != null ? Math.floor(diff / 60) : 99;
+    engineStatus.innerHTML = staleMin < 20
+      ? '<span class="sched-ok">&#10003;</span>'
+      : '<span class="sched-pending">&#9679;</span>';
+  }
+
+  // L9 row
+  const l9Last   = document.getElementById('sched-l9-last');
+  const l9Status = document.getElementById('sched-l9-status');
+  const l9Ts     = meta.last_l9_run;
+  if (l9Last)   l9Last.textContent   = l9Ts ? fmtTs(l9Ts) : 'Not yet run';
+  if (l9Status) l9Status.innerHTML   = l9Ts
+    ? '<span class="sched-ok">&#10003;</span>'
+    : '<span class="sched-pending">&#9679;</span>';
 }
 
 // ── render L9 intelligence panel ─────────────────────────────
@@ -477,6 +525,7 @@ async function refresh() {
     renderPortfolio(l9);
     renderNews(btc, eth);
     renderMeta(meta);
+    renderStatus(meta);
   } catch (err) {
     document.getElementById('update-text').textContent = 'Failed to load — retrying';
     console.error('Dashboard fetch error:', err);

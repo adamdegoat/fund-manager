@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 64743.24,
-  "change_24h": -2.94,
+  "price": 64408.4,
+  "change_24h": -3.44,
   "levels": {
     "support": [
       72481.86,
@@ -13,11 +13,11 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 64902.07
+    "range_low": 64410.53
   },
   "verdict": "REDUCE",
-  "score": -1.31,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 3th percentile of its 52-week range. 30-day price momentum: -18.9%.",
+  "score": -1.54,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 3th percentile of its 52-week range. 30-day price momentum: -19.3%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 33.3,
-      "rsi_label": "Weak Momentum",
+      "rsi": 29.1,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 30.7,
-      "rsi_label": "Weak Momentum",
+      "rsi": 28.7,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.2,
+      "rsi": 18.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.3,
+      "rsi": 18.9,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.5,
+      "btc": 55.4,
       "eth": 9.4
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 5,
+      "fast_fee": 8,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1844.19,
-  "change_24h": -0.73,
+  "price": 1839.94,
+  "change_24h": -0.96,
   "levels": {
     "support": [
       2060.45,
@@ -17,7 +17,7 @@
   },
   "verdict": "REDUCE",
   "score": -2.71,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 21.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -21.4%.",
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 21.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.010%). Market sentiment: extreme fear (11/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -21.6%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 31.9,
-      "rsi_label": "Weak Momentum",
+      "rsi": 29.6,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 32.0,
+      "rsi": 30.9,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 29.0,
+      "rsi": 28.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 21.3,
+      "rsi": 21.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -66,7 +66,7 @@
     },
     "dominance": {
       "btc": 55.8,
-      "eth": 9.4
+      "eth": 9.3
     }
   },
   "onchain": {

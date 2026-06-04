@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 64249.43,
-  "change_24h": 0.37,
+  "price": 63962.01,
+  "change_24h": -0.08,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61351.63
   },
   "verdict": "REDUCE",
-  "score": -0.79,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.003%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -20.6%.",
+  "score": -1.08,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.003%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -21.0%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -26,29 +26,29 @@
   },
   "tf_table": {
     "m15": {
-      "trend": "Mixed",
-      "rsi": 52.8,
+      "trend": "Bearish",
+      "rsi": 48.3,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 41.9,
+      "rsi": 39.5,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.9,
+      "rsi": 19.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.6,
+      "rsi": 18.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,29 +71,29 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.7,
+      "hashrate_th": 0.8,
       "label": "1 TH/s"
     }
   },
   "news": [
+    {
+      "title": "BTC, ETH, SOL and XRP ETFs bleed $4.4 billion over 13 sessions, only HYPE in green",
+      "url": "https://www.coindesk.com/markets/2026/06/04/btc-eth-sol-and-xrp-etfs-bleed-usd4-4-billion-over-13-sessions-only-hype-in-green",
+      "sentiment": "neutral"
+    },
     {
       "title": "Bitcoin briefly drops below $62,000 as $1.5 billion in crypto longs get wiped out",
       "url": "https://www.coindesk.com/markets/2026/06/04/bitcoin-drops-below-usd62-000-as-usd1-5-billion-in-crypto-longs-get-wiped-out",
       "sentiment": "negative"
     },
     {
-      "title": "Live Markets: Bitcoin crashes to $62,000 as billions of longs get liquidated",
+      "title": "Live Markets: Bitcoin bounces to $64,000 in classic oversold rebound",
       "url": "https://www.coindesk.com/tech/2026/06/03/live-markets-bitcoin-crashes-to-usd62-000-as-billions-of-longs-get-liquidated",
-      "sentiment": "negative"
-    },
-    {
-      "title": "Bitcoin tanks below $63,000 for the first time since February as price selloff deepens",
-      "url": "https://www.coindesk.com/markets/2026/06/04/bitcoin-selloff-continues-as-prices-slide-below-usd63-000-for-the-first-time-since-february",
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1795.9,
-  "change_24h": -0.87,
+  "price": 1788.07,
+  "change_24h": -1.31,
   "levels": {
     "support": [
       2060.45,
@@ -16,8 +16,8 @@
     "range_low": 1717.8
   },
   "verdict": "REDUCE",
-  "score": -1.94,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.008%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.9%.",
+  "score": -2.2,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.008%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.3%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -26,29 +26,29 @@
   },
   "tf_table": {
     "m15": {
-      "trend": "Mixed",
-      "rsi": 50.4,
+      "trend": "Bearish",
+      "rsi": 46.9,
       "rsi_label": "Neutral",
       "macd": "Bullish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 42.8,
+      "rsi": 40.8,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 25.8,
+      "rsi": 25.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.2,
+      "rsi": 18.9,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,15 +71,20 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.7,
+      "hashrate_th": 0.8,
       "label": "1 TH/s"
     }
   },
   "news": [
+    {
+      "title": "BTC, ETH, SOL and XRP ETFs bleed $4.4 billion over 13 sessions, only HYPE in green",
+      "url": "https://www.coindesk.com/markets/2026/06/04/btc-eth-sol-and-xrp-etfs-bleed-usd4-4-billion-over-13-sessions-only-hype-in-green",
+      "sentiment": "neutral"
+    },
     {
       "title": "Bitmine's Ethereum bet nears $9 billion loss as ether falls below $1,800",
       "url": "https://www.coindesk.com/markets/2026/06/03/bitmine-s-ethereum-bet-nears-usd9-billion-loss-as-ether-falls-below-usd1-800",
@@ -89,11 +94,6 @@
       "title": "Price predictions 6/3: BTC, ETH, BNB, XRP, SOL, HYPE, DOGE, ZEC, ADA, XLM",
       "url": "https://cointelegraph.com/markets/price-predictions-63-btc-eth-bnb-xrp-sol-hype-doge-zec-ada-xlm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Ethereum drops to 14-week lows: Can ETH price hold $1.8K support?",
-      "url": "https://cointelegraph.com/markets/ethereum-drops-to-14-week-lows-can-eth-price-hold-18k-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "sentiment": "negative"
     }
   ]
 }

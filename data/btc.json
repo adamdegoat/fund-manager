@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 63362.95,
-  "change_24h": -1.02,
+  "price": 63344.91,
+  "change_24h": -1.05,
   "levels": {
     "support": [
       72481.86,
@@ -27,14 +27,14 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 46.7,
+      "rsi": 46.3,
       "rsi_label": "Neutral",
       "macd": "Bearish",
       "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 42.1,
+      "rsi": 42.0,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "High"
@@ -66,12 +66,12 @@
     },
     "dominance": {
       "btc": 55.7,
-      "eth": 9.4
+      "eth": 9.3
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 1,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

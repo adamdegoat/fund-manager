@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1777.61,
-  "change_24h": -1.88,
+  "price": 1777.91,
+  "change_24h": -1.87,
   "levels": {
     "support": [
       2060.45,
@@ -27,7 +27,7 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.4,
+      "rsi": 53.9,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 2,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

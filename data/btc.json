@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 64159.83,
-  "change_24h": 0.23,
+  "price": 64037.14,
+  "change_24h": 0.04,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61351.63
   },
   "verdict": "REDUCE",
-  "score": -0.94,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 19.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.002%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -20.7%.",
+  "score": -2.09,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.002%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -20.9%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 60.2,
+      "rsi": 58.3,
       "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
-      "trend": "Mixed",
-      "rsi": 47.5,
+      "trend": "Bearish",
+      "rsi": 46.7,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 30.0,
+      "rsi": 29.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 19.2,
+      "rsi": 18.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 6,
+      "fast_fee": 2,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

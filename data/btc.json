@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 63855.16,
-  "change_24h": -0.25,
+  "price": 63677.22,
+  "change_24h": -0.53,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61351.63
   },
   "verdict": "REDUCE",
-  "score": -2.46,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.002%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -21.1%.",
+  "score": -2.09,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.002%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -21.3%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.0,
-      "rsi_label": "Neutral",
-      "macd": "Bullish",
-      "volume": "Normal"
-    },
-    "h1": {
-      "trend": "Bearish",
-      "rsi": 45.3,
+      "rsi": 51.5,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
+    "h1": {
+      "trend": "Bearish",
+      "rsi": 44.1,
+      "rsi_label": "Weak Momentum",
+      "macd": "Bullish",
+      "volume": "Normal"
+    },
     "h4": {
       "trend": "Bearish",
-      "rsi": 27.9,
+      "rsi": 26.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 18.3,
+      "rsi": 18.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"

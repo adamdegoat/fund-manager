@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 62760.74,
-  "change_24h": -5.91,
+  "price": 62876.49,
+  "change_24h": -5.74,
   "levels": {
     "support": [
       72481.86,
@@ -13,11 +13,11 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 62641.34
+    "range_low": 62541.74
   },
   "verdict": "REDUCE",
-  "score": -0.75,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -21.4%.",
+  "score": -0.95,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -21.2%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 20.0,
+      "rsi": 26.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 21.2,
+      "rsi": 21.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 15.4,
+      "rsi": 15.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 17.3,
+      "rsi": 17.4,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,7 +65,7 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.1,
+      "btc": 55.2,
       "eth": 9.4
     }
   },
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Bitcoin tanks below $63,000 for the first time since February as price selloff deepens",
+      "url": "https://www.coindesk.com/markets/2026/06/04/bitcoin-selloff-continues-as-prices-slide-below-usd63-000-for-the-first-time-since-february",
+      "sentiment": "negative"
+    },
+    {
       "title": "SpaceX targets record $75 billion IPO as bitcoin treasury and liquidity risks draw focus",
       "url": "https://www.coindesk.com/markets/2026/06/03/spacex-targets-record-usd75-billion-ipo-as-bitcoin-treasury-and-liquidity-risks-draw-focus",
       "sentiment": "neutral"
@@ -89,11 +94,6 @@
       "title": "Bitcoin isn't crashing because of Saylor, it's losing the momentum trade",
       "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-isn-t-crashing-because-of-saylor-it-s-losing-the-momentum-trade",
       "sentiment": "negative"
-    },
-    {
-      "title": "Rare physical bitcoin worth $1.78 million gets cashed in after 12 years",
-      "url": "https://www.coindesk.com/markets/2026/06/03/rare-physical-bitcoin-worth-usd1-78-million-gets-cashed-in-after-12-years",
-      "sentiment": "neutral"
     }
   ]
 }

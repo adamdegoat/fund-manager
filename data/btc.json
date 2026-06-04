@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 63922.35,
-  "change_24h": -0.14,
+  "price": 63623.52,
+  "change_24h": -0.61,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61351.63
   },
   "verdict": "REDUCE",
-  "score": -0.19,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -21.0%.",
+  "score": -1.59,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 2th percentile of its 52-week range. 30-day price momentum: -21.4%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 55.7,
-      "rsi_label": "Bullish Momentum",
+      "rsi": 51.3,
+      "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
-      "trend": "Mixed",
-      "rsi": 47.1,
-      "rsi_label": "Neutral",
+      "trend": "Bearish",
+      "rsi": 44.3,
+      "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 28.5,
+      "rsi": 27.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 18.4,
+      "rsi": 18.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 6,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "'Dr. Doom'-backed Atlas Capital CEO says bitcoin could crash 70% before reaching $500,000",
+      "url": "https://www.coindesk.com/markets/2026/06/04/dr-doom-backed-atlas-capital-ceo-says-bitcoin-could-crash-70-before-reaching-usd500-000",
+      "sentiment": "negative"
+    },
+    {
       "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH), up 1.5%, is only gainer",
       "url": "https://www.coindesk.com/coindesk-indices/2026/06/04/coindesk-20-performance-update-bitcoin-cash-bch-up-1-5-is-only-gainer",
       "sentiment": "neutral"
@@ -89,11 +94,6 @@
       "title": "Strategy's Saylor's explanation for bitcoin's slide isn't what bears think",
       "url": "https://www.coindesk.com/markets/2026/06/04/strategy-s-saylor-s-explanation-for-bitcoin-s-slide-isn-t-what-bears-think",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Live markets: Bitcoin bounces, HYPE falls, NEAR gets demolished as crypto deals with a wipe out",
-      "url": "https://www.coindesk.com/markets/2026/06/04/live-markets-saylor-speaks-as-bitcoin-plunges-to-usd62-000",
-      "sentiment": "negative"
     }
   ]
 }

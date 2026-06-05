@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1582.16,
-  "change_24h": -10.59,
+  "price": 1610.4,
+  "change_24h": -9.0,
   "levels": {
     "support": [
       2056.42,
@@ -16,8 +16,8 @@
     "range_low": 1561.31
   },
   "verdict": "REDUCE",
-  "score": -0.41,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 13.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.007%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.7%.",
+  "score": -1.23,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 13.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.007%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -31.5%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 30.3,
+      "rsi": 44.7,
       "rsi_label": "Weak Momentum",
-      "macd": "Bearish",
+      "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 22.3,
-      "rsi_label": "Oversold",
+      "rsi": 31.4,
+      "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 14.8,
+      "rsi": 21.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 13.0,
+      "rsi": 13.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 4,
+      "fast_fee": 6,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Alsobrooks says Clarity Act needs ethics deal before Senate vote",
+      "url": "https://www.coindesk.com/coindesk-news/2026/06/05/alsobrooks-says-clarity-act-needs-ethics-deal-before-senate-vote",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Crypto's worst week since July 2024 deepens as bitcoin, ether near critical price levels",
       "url": "https://www.coindesk.com/markets/2026/06/05/crypto-s-worst-week-since-july-2024-deepens-as-bitcoin-ether-near-critical-price-levels",
       "sentiment": "neutral"
@@ -88,11 +93,6 @@
     {
       "title": "U.S. bitcoin, ether ETFs end record multibillion outflow streak",
       "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-and-ether-etfs-end-record-multi-billion-outflow-streak",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Not all Ethereum layer 2s are dying, but many general-purpose chains no longer have a reason to exist",
-      "url": "https://www.coindesk.com/tech/2026/06/04/not-all-ethereum-layer-2s-are-dying-but-many-general-purpose-chains-no-longer-have-a-reason-to-exist",
       "sentiment": "neutral"
     }
   ]

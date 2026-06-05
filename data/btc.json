@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 61143.48,
-  "change_24h": -4.17,
+  "price": 60970.78,
+  "change_24h": -4.44,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 59156.43
   },
   "verdict": "REDUCE",
-  "score": -1.77,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.9%.",
+  "score": -1.8,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -25.1%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 50.0,
+      "rsi": 48.1,
       "rsi_label": "Neutral",
-      "macd": "Bullish",
+      "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 44.9,
+      "rsi": 44.0,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 28.2,
+      "rsi": 26.9,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 15.6,
+      "rsi": 15.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,8 +65,8 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.2,
-      "eth": 8.8
+      "btc": 56.1,
+      "eth": 8.7
     }
   },
   "onchain": {

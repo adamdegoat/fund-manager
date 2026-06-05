@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1584.21,
-  "change_24h": -10.48,
+  "price": 1579.61,
+  "change_24h": -10.74,
   "levels": {
     "support": [
       2056.42,
@@ -16,8 +16,8 @@
     "range_low": 1544.44
   },
   "verdict": "REDUCE",
-  "score": -0.4,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 13.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.007%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.6%.",
+  "score": -0.45,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.007%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.8%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 43.5,
+      "rsi": 43.2,
       "rsi_label": "Weak Momentum",
-      "macd": "Bullish",
-      "volume": "Normal"
+      "macd": "Bearish",
+      "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 35.6,
+      "rsi": 34.9,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 17.3,
+      "rsi": 16.2,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 13.0,
+      "rsi": 12.9,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,8 +65,8 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.2,
-      "eth": 8.8
+      "btc": 56.1,
+      "eth": 8.7
     }
   },
   "onchain": {

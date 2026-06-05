@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 60747.34,
-  "change_24h": -4.79,
+  "price": 60788.68,
+  "change_24h": -4.72,
   "levels": {
     "support": [
       72481.86,
@@ -13,10 +13,10 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 60570.86
+    "range_low": 60413.31
   },
   "verdict": "REDUCE",
-  "score": -1.19,
+  "score": -1.15,
   "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -25.4%.",
   "moomoo": {
     "can_hold": false,
@@ -27,21 +27,21 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 29.5,
-      "rsi_label": "Oversold",
+      "rsi": 34.7,
+      "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 33.8,
+      "rsi": 34.2,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 22.4,
+      "rsi": 22.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.8,
+      "btc": 55.6,
       "eth": 8.9
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -86,7 +86,7 @@
       "sentiment": "negative"
     },
     {
-      "title": "Live updates: bitcoin below $62,000 as blowout jobs data, Zcash bug keeps pressure on crypto",
+      "title": "Live updates: bitcoin tumbles to $60,000 as blowout jobs data, Zcash bug keeps pressure on crypto",
       "url": "https://www.coindesk.com/tech/2026/06/05/live-updates-bitcoin-below-usd62-000-ahead-of-jobs-data-as-zcash-bug-rocks-crypto",
       "sentiment": "neutral"
     },

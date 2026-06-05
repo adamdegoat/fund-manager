@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1662.57,
-  "change_24h": -6.05,
+  "price": 1682.39,
+  "change_24h": -4.93,
   "levels": {
     "support": [
       2056.42,
@@ -16,8 +16,8 @@
     "range_low": 1636.86
   },
   "verdict": "REDUCE",
-  "score": -1.23,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.8 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -29.3%.",
+  "score": -0.98,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -28.4%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 38.5,
-      "rsi_label": "Weak Momentum",
+      "rsi": 46.6,
+      "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 29.8,
-      "rsi_label": "Oversold",
+      "rsi": 36.0,
+      "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.0,
+      "rsi": 21.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 14.8,
+      "rsi": 15.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 4,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

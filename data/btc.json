@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 63741.25,
-  "change_24h": -0.43,
+  "price": 63748.12,
+  "change_24h": -0.42,
   "levels": {
     "support": [
       72481.86,
@@ -13,7 +13,7 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 63700.72
+    "range_low": 63590.4
   },
   "verdict": "REDUCE",
   "score": -2.86,
@@ -27,7 +27,7 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 53.1,
+      "rsi": 53.4,
       "rsi_label": "Neutral",
       "macd": "Bearish",
       "volume": "Low"
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.9,
+      "btc": 55.8,
       "eth": 9.3
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 61506.0,
-  "change_24h": -3.6,
+  "price": 60560.91,
+  "change_24h": -5.08,
   "levels": {
     "support": [
       72481.86,
@@ -13,11 +13,11 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 61335.75
+    "range_low": 60717.28
   },
   "verdict": "REDUCE",
-  "score": -1.51,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.5%.",
+  "score": -1.46,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -25.6%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 35.6,
-      "rsi_label": "Weak Momentum",
+      "rsi": 26.5,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 37.5,
+      "rsi": 32.7,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 24.2,
+      "rsi": 22.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 16.0,
+      "rsi": 15.2,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,17 +65,17 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.9,
-      "eth": 9.0
+      "btc": 55.8,
+      "eth": 8.9
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 5,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.8,
+      "hashrate_th": 0.9,
       "label": "1 TH/s"
     }
   },

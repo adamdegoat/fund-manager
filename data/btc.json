@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 62102.32,
-  "change_24h": -2.66,
+  "price": 61714.36,
+  "change_24h": -3.27,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61335.75
   },
   "verdict": "REDUCE",
-  "score": -2.65,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.7%.",
+  "score": -1.71,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.2%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 42.4,
+      "rsi": 37.2,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 41.2,
+      "rsi": 38.9,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Normal"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 25.8,
+      "rsi": 24.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 16.5,
+      "rsi": 16.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Bitcoin sentiment hit peak bearishness at recent lows, peak bullishness near tops",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/04/bitcoin-sentiment-hit-peak-bearishness-at-recent-lows-peak-bullishness-near-tops",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Crypto's worst week since July 2024 deepens as bitcoin, ether near critical price levels",
       "url": "https://www.coindesk.com/markets/2026/06/05/crypto-s-worst-week-since-july-2024-deepens-as-bitcoin-ether-near-critical-price-levels",
       "sentiment": "neutral"
@@ -88,11 +93,6 @@
     {
       "title": "U.S. bitcoin, ether ETFs end record multibillion outflow streak",
       "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-and-ether-etfs-end-record-multi-billion-outflow-streak",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Here's what could happen if bitcoin breaks below $60,000",
-      "url": "https://www.coindesk.com/markets/2026/06/05/here-s-what-could-happen-if-bitcoin-breaks-below-usd60-000",
       "sentiment": "neutral"
     }
   ]

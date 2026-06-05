@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1667.44,
-  "change_24h": -5.77,
+  "price": 1670.05,
+  "change_24h": -5.62,
   "levels": {
     "support": [
       2056.42,
@@ -17,7 +17,7 @@
   },
   "verdict": "REDUCE",
   "score": -1.27,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -29.1%.",
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -29.0%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 39.4,
+      "rsi": 40.5,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 30.4,
+      "rsi": 30.8,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.3,
+      "rsi": 19.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 14.9,
+      "rsi": 15.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 62724.25,
-  "change_24h": -1.69,
+  "price": 62704.97,
+  "change_24h": -1.72,
   "levels": {
     "support": [
       72481.86,
@@ -27,21 +27,21 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 50.5,
+      "rsi": 50.3,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 44.5,
+      "rsi": 44.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 27.6,
+      "rsi": 27.5,
       "rsi_label": "Oversold",
       "macd": "Bullish",
       "volume": "Normal"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Here's what could happen if bitcoin breaks below $60,000",
+      "url": "https://www.coindesk.com/markets/2026/06/05/here-s-what-could-happen-if-bitcoin-breaks-below-usd60-000",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Bitcoin in danger of dropping to $60,000, with Zcash bulls turning their backs on ZEC",
       "url": "https://www.coindesk.com/tech/2026/06/05/bitcoin-in-danger-of-dropping-to-usd60-000-with-zcash-bulls-turning-their-backs-on-zec",
       "sentiment": "negative"
@@ -88,11 +93,6 @@
     {
       "title": "Bitcoin plunges to near $62,000 as the AI trade unwinds, HYPE falls 14%",
       "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-plunges-to-near-usd62-000-as-the-ai-trade-unwinds-hype-falls-14",
-      "sentiment": "negative"
-    },
-    {
-      "title": "'Dr. Doom'-backed Atlas Capital CEO says bitcoin could crash 70% before reaching $500,000",
-      "url": "https://www.coindesk.com/markets/2026/06/04/dr-doom-backed-atlas-capital-ceo-says-bitcoin-could-crash-70-before-reaching-usd500-000",
       "sentiment": "negative"
     }
   ]

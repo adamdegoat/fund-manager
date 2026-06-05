@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 59166.83,
-  "change_24h": -7.26,
+  "price": 59584.0,
+  "change_24h": -6.61,
   "levels": {
     "support": [
       72481.86,
@@ -17,7 +17,7 @@
   },
   "verdict": "REDUCE",
   "score": -1.21,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -27.3%.",
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -26.8%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 27.5,
-      "rsi_label": "Oversold",
+      "rsi": 35.4,
+      "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 30.5,
+      "rsi": 33.5,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.2,
+      "rsi": 20.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 14.1,
+      "rsi": 14.4,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.7,
+      "btc": 55.9,
       "eth": 8.8
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

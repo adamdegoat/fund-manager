@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 63044.52,
-  "change_24h": -1.19,
+  "price": 62724.25,
+  "change_24h": -1.69,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61335.75
   },
   "verdict": "REDUCE",
-  "score": -2.61,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.001%). Market sentiment: extreme fear (12/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -22.6%.",
+  "score": -0.24,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.0%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 54.2,
+      "rsi": 50.5,
       "rsi_label": "Neutral",
       "macd": "Bullish",
-      "volume": "Normal"
+      "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 46.7,
-      "rsi_label": "Neutral",
-      "macd": "Bearish",
+      "rsi": 44.5,
+      "rsi_label": "Weak Momentum",
+      "macd": "Bullish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 28.6,
+      "rsi": 27.6,
       "rsi_label": "Oversold",
-      "macd": "Bearish",
-      "volume": "High"
+      "macd": "Bullish",
+      "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 17.4,
+      "rsi": 17.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -60,8 +60,8 @@
       "label": "Extreme Fear"
     },
     "funding": {
-      "rate": 0.0013,
-      "annualized": 1.44,
+      "rate": -0.0014,
+      "annualized": -1.57,
       "label": "Neutral"
     },
     "dominance": {
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

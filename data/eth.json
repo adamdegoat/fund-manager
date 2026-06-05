@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1677.65,
-  "change_24h": -5.2,
+  "price": 1667.44,
+  "change_24h": -5.77,
   "levels": {
     "support": [
       2056.42,
@@ -16,8 +16,8 @@
     "range_low": 1636.86
   },
   "verdict": "REDUCE",
-  "score": -1.75,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -28.6%.",
+  "score": -1.27,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -29.1%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 42.1,
+      "rsi": 39.4,
       "rsi_label": "Weak Momentum",
-      "macd": "Bearish",
+      "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 31.8,
+      "rsi": 30.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 20.0,
+      "rsi": 19.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 15.2,
+      "rsi": 14.9,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -60,8 +60,8 @@
       "label": "Extreme Fear"
     },
     "funding": {
-      "rate": 0.0047,
-      "annualized": 5.11,
+      "rate": -0.0031,
+      "annualized": -3.43,
       "label": "Neutral"
     },
     "dominance": {
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

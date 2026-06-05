@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 61986.01,
-  "change_24h": -2.85,
+  "price": 62005.1,
+  "change_24h": -2.82,
   "levels": {
     "support": [
       72481.86,
@@ -15,36 +15,36 @@
     "range_high": 82792.21,
     "range_low": 61335.75
   },
-  "verdict": "AVOID",
-  "score": -3.25,
+  "verdict": "REDUCE",
+  "score": -2.95,
   "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.9%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
-    "note": "No new exposure to IBIT until conditions improve.",
-    "avoid": "Do not buy or hold aggressively. Wait for signals to recover."
+    "note": "Consider trimming IBIT exposure into current strength.",
+    "avoid": "Do not add. Risk of a sharper move down is elevated."
   },
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 42.3,
+      "rsi": 42.8,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 40.8,
+      "rsi": 40.9,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 25.9,
+      "rsi": 26.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.0,
-      "eth": 9.0
+      "btc": 55.9,
+      "eth": 9.1
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 2,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,18 +81,18 @@
   },
   "news": [
     {
+      "title": "CoinDesk 20 performance update: Bitcoin (BTC) price drops 2.8% as index declines",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/06/05/coindesk-20-performance-update-bitcoin-btc-price-drops-2-8-as-index-declines",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Live updates: bitcoin below $62,000 as blowout jobs data, Zcash bug keeps pressure on crypto",
+      "url": "https://www.coindesk.com/tech/2026/06/05/live-updates-bitcoin-below-usd62-000-ahead-of-jobs-data-as-zcash-bug-rocks-crypto",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Bitcoin sentiment hit peak bearishness at recent lows, peak bullishness near tops",
       "url": "https://www.coindesk.com/daybook-us/2026/06/04/bitcoin-sentiment-hit-peak-bearishness-at-recent-lows-peak-bullishness-near-tops",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Crypto's worst week since July 2024 deepens as bitcoin, ether near critical price levels",
-      "url": "https://www.coindesk.com/markets/2026/06/05/crypto-s-worst-week-since-july-2024-deepens-as-bitcoin-ether-near-critical-price-levels",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "U.S. bitcoin, ether ETFs end record multibillion outflow streak",
-      "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-and-ether-etfs-end-record-multi-billion-outflow-streak",
       "sentiment": "neutral"
     }
   ]

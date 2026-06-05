@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 62590.69,
-  "change_24h": -1.9,
+  "price": 62356.21,
+  "change_24h": -2.27,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 61335.75
   },
   "verdict": "REDUCE",
-  "score": -0.38,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.1%.",
+  "score": -2.05,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.7 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.4%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 48.4,
+      "rsi": 45.1,
       "rsi_label": "Neutral",
-      "macd": "Bullish",
+      "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 44.4,
+      "rsi": 42.8,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Normal"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 27.2,
+      "rsi": 26.5,
       "rsi_label": "Oversold",
-      "macd": "Bullish",
+      "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 17.0,
+      "rsi": 16.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,13 +65,13 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.0,
-      "eth": 9.1
+      "btc": 56.1,
+      "eth": 9.0
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 1,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

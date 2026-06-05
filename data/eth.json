@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1731.87,
-  "change_24h": -4.41,
+  "price": 1720.88,
+  "change_24h": -5.01,
   "levels": {
     "support": [
       2060.45,
@@ -13,11 +13,11 @@
       2422.87
     ],
     "range_high": 2464.78,
-    "range_low": 1734.46
+    "range_low": 1724.12
   },
   "verdict": "REDUCE",
-  "score": -1.59,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -26.6%.",
+  "score": -2.24,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -27.1%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 30.6,
-      "rsi_label": "Weak Momentum",
+      "rsi": 26.4,
+      "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 33.8,
+      "rsi": 31.6,
       "rsi_label": "Weak Momentum",
-      "macd": "Bullish",
-      "volume": "High"
+      "macd": "Bearish",
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 24.2,
+      "rsi": 23.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 16.9,
+      "rsi": 16.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"

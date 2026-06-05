@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 60014.08,
-  "change_24h": -5.94,
+  "price": 60856.02,
+  "change_24h": -4.62,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 59156.43
   },
   "verdict": "REDUCE",
-  "score": -1.73,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.7 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -26.3%.",
+  "score": -2.69,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -25.3%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -26,29 +26,29 @@
   },
   "tf_table": {
     "m15": {
-      "trend": "Bearish",
-      "rsi": 42.6,
-      "rsi_label": "Weak Momentum",
+      "trend": "Mixed",
+      "rsi": 53.0,
+      "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 37.6,
+      "rsi": 43.0,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 20.8,
+      "rsi": 26.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 14.7,
+      "rsi": 15.4,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 4,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Why diehard bitcoin purists aren\u2019t sweating the massive price crash that wiped out $200 billion",
+      "url": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
+      "sentiment": "negative"
+    },
+    {
       "title": "BlackRock-backed tokenization firm Securitize clears key hurdle to go public on NYSE",
       "url": "https://www.coindesk.com/business/2026/06/05/blackrock-backed-tokenization-firm-securitize-clears-key-hurdle-to-go-public-on-nyse",
       "sentiment": "neutral"
@@ -89,11 +94,6 @@
       "title": "Memecoins dogecoin, shiba inu dive 9% as bitcoin nears $60,000",
       "url": "https://www.coindesk.com/markets/2026/06/05/memecoins-dogecoin-shiba-inu-dive-9-as-bitcoin-nears-usd60-000",
       "sentiment": "neutral"
-    },
-    {
-      "title": "Bitcoin loses $60,000, falls to weakest price since October 2024",
-      "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-loses-usd60-000-falls-to-weakest-price-since-october-2024",
-      "sentiment": "negative"
     }
   ]
 }

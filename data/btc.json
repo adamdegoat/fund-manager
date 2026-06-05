@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 62817.72,
-  "change_24h": -1.87,
+  "price": 62797.65,
+  "change_24h": -1.9,
   "levels": {
     "support": [
       72481.86,
@@ -13,10 +13,10 @@
       82021.97
     ],
     "range_high": 82792.21,
-    "range_low": 62826.04
+    "range_low": 62660.24
   },
   "verdict": "AVOID",
-  "score": -3.21,
+  "score": -3.12,
   "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -22.4%.",
   "moomoo": {
     "can_hold": false,
@@ -27,14 +27,14 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 36.7,
+      "rsi": 38.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 38.6,
+      "rsi": 38.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Low"
@@ -65,7 +65,7 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 55.8,
+      "btc": 55.7,
       "eth": 9.3
     }
   },

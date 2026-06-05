@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1637.6,
-  "change_24h": -7.46,
+  "price": 1656.76,
+  "change_24h": -6.38,
   "levels": {
     "support": [
       2056.42,
@@ -13,11 +13,11 @@
       2422.87
     ],
     "range_high": 2464.78,
-    "range_low": 1636.24
+    "range_low": 1636.86
   },
   "verdict": "REDUCE",
-  "score": -1.26,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -30.3%.",
+  "score": -0.99,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.005%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -29.5%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 25.1,
-      "rsi_label": "Oversold",
+      "rsi": 34.1,
+      "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 22.1,
+      "rsi": 24.8,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 17.7,
+      "rsi": 18.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 14.2,
+      "rsi": 14.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,7 +65,7 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.0,
+      "btc": 56.1,
       "eth": 9.0
     }
   },

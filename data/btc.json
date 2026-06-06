@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 60188.36,
-  "change_24h": -5.66,
+  "price": 60761.19,
+  "change_24h": -4.77,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 59496.62
   },
   "verdict": "REDUCE",
-  "score": -0.69,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 14.9 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -26.1%.",
+  "score": -1.49,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -25.4%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -26,29 +26,29 @@
   },
   "tf_table": {
     "m15": {
-      "trend": "Bearish",
-      "rsi": 39.3,
-      "rsi_label": "Weak Momentum",
-      "macd": "Bearish",
-      "volume": "High"
-    },
-    "h1": {
-      "trend": "Bearish",
-      "rsi": 39.6,
-      "rsi_label": "Weak Momentum",
-      "macd": "Bullish",
-      "volume": "Low"
-    },
-    "h4": {
-      "trend": "Bearish",
-      "rsi": 25.0,
-      "rsi_label": "Oversold",
+      "trend": "Mixed",
+      "rsi": 51.5,
+      "rsi_label": "Neutral",
       "macd": "Bearish",
       "volume": "Normal"
     },
+    "h1": {
+      "trend": "Bearish",
+      "rsi": 44.5,
+      "rsi_label": "Weak Momentum",
+      "macd": "Bullish",
+      "volume": "High"
+    },
+    "h4": {
+      "trend": "Bearish",
+      "rsi": 27.1,
+      "rsi_label": "Oversold",
+      "macd": "Bearish",
+      "volume": "High"
+    },
     "daily": {
       "trend": "Bearish",
-      "rsi": 14.9,
+      "rsi": 15.3,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"

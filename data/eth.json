@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1561.07,
-  "change_24h": -11.78,
+  "price": 1562.6,
+  "change_24h": -11.7,
   "levels": {
     "support": [
       2056.42,
@@ -13,11 +13,11 @@
       2422.87
     ],
     "range_high": 2464.78,
-    "range_low": 1563.12
+    "range_low": 1557.28
   },
   "verdict": "REDUCE",
-  "score": -0.79,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.008%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -33.6%.",
+  "score": -0.81,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.008%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -33.5%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,21 +27,21 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 35.1,
+      "rsi": 36.0,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Normal"
+      "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 32.9,
+      "rsi": 33.1,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 15.9,
+      "rsi": 16.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"

@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 60756.97,
-  "change_24h": -0.27,
+  "price": 61029.02,
+  "change_24h": 0.17,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 59108.92
   },
   "verdict": "REDUCE",
-  "score": -1.42,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.3 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.1%.",
+  "score": -0.03,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.7%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 50.2,
-      "rsi_label": "Neutral",
+      "rsi": 55.1,
+      "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 44.6,
-      "rsi_label": "Weak Momentum",
+      "rsi": 46.9,
+      "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 27.1,
+      "rsi": 29.2,
       "rsi_label": "Oversold",
-      "macd": "Bearish",
+      "macd": "Bullish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 15.3,
+      "rsi": 16.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Bitcoin back above $61,000 after rout leads to $1.6 billion liquidations",
+      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-back-above-usd61-000-after-rout-leads-to-usd1-6-billion-liquidations",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Why diehard bitcoin purists aren\u2019t sweating the massive price crash that wiped out $200 billion",
       "url": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
       "sentiment": "negative"
@@ -88,11 +93,6 @@
     {
       "title": "BlackRock-backed tokenization firm Securitize clears key hurdle to go public on NYSE",
       "url": "https://www.coindesk.com/business/2026/06/05/blackrock-backed-tokenization-firm-securitize-clears-key-hurdle-to-go-public-on-nyse",
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Memecoins dogecoin, shiba inu dive 9% as bitcoin nears $60,000",
-      "url": "https://www.coindesk.com/markets/2026/06/05/memecoins-dogecoin-shiba-inu-dive-9-as-bitcoin-nears-usd60-000",
       "sentiment": "neutral"
     }
   ]

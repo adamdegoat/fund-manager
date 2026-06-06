@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1582.55,
-  "change_24h": -10.57,
+  "price": 1568.1,
+  "change_24h": -11.39,
   "levels": {
     "support": [
       2056.42,
@@ -16,8 +16,8 @@
     "range_low": 1567.02
   },
   "verdict": "REDUCE",
-  "score": -0.6,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 13.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.008%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.7%.",
+  "score": -1.04,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.7 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.008%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -33.3%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 45.2,
-      "rsi_label": "Neutral",
+      "rsi": 38.6,
+      "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Low"
+      "volume": "High"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 35.1,
+      "rsi": 34.0,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 21.3,
+      "rsi": 16.2,
       "rsi_label": "Oversold",
       "macd": "Bearish",
-      "volume": "High"
+      "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 13.0,
+      "rsi": 12.7,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -66,17 +66,17 @@
     },
     "dominance": {
       "btc": 56.1,
-      "eth": 8.8
+      "eth": 8.7
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 5,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.6,
-      "label": "1 TH/s"
+      "hashrate_th": 0.5,
+      "label": "0 TH/s"
     }
   },
   "news": [

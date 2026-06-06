@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 60637.99,
-  "change_24h": -0.47,
+  "price": 60692.9,
+  "change_24h": -0.38,
   "levels": {
     "support": [
       72481.86,
@@ -17,7 +17,7 @@
   },
   "verdict": "REDUCE",
   "score": -1.25,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.2%.",
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.2 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (+0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -24.1%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,21 +27,21 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 45.2,
+      "rsi": 46.6,
       "rsi_label": "Neutral",
       "macd": "Bearish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 44.2,
+      "rsi": 44.7,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 27.7,
+      "rsi": 27.9,
       "rsi_label": "Oversold",
       "macd": "Bullish",
       "volume": "High"
@@ -66,12 +66,12 @@
     },
     "dominance": {
       "btc": 56.2,
-      "eth": 8.6
+      "eth": 8.7
     }
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 1,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
+      "url": "https://www.coindesk.com/markets/2026/06/06/are-retail-traders-selling-their-bitcoin-to-buy-the-spacex-ipo",
+      "sentiment": "negative"
+    },
+    {
       "title": "Bitcoin back above $61,000 after rout leads to $1.6 billion liquidations",
       "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-back-above-usd61-000-after-rout-leads-to-usd1-6-billion-liquidations",
       "sentiment": "neutral"
@@ -89,11 +94,6 @@
       "title": "Why diehard bitcoin purists aren\u2019t sweating the massive price crash that wiped out $200 billion",
       "url": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
       "sentiment": "negative"
-    },
-    {
-      "title": "BlackRock-backed tokenization firm Securitize clears key hurdle to go public on NYSE",
-      "url": "https://www.coindesk.com/business/2026/06/05/blackrock-backed-tokenization-firm-securitize-clears-key-hurdle-to-go-public-on-nyse",
-      "sentiment": "neutral"
     }
   ]
 }

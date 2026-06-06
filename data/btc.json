@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 61029.02,
-  "change_24h": 0.17,
+  "price": 60858.21,
+  "change_24h": -0.11,
   "levels": {
     "support": [
       72481.86,
@@ -16,8 +16,8 @@
     "range_low": 59108.92
   },
   "verdict": "REDUCE",
-  "score": -0.03,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 16.0 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.7%.",
+  "score": 0.09,
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 15.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.001%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -23.9%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 55.1,
-      "rsi_label": "Bullish Momentum",
-      "macd": "Bullish",
-      "volume": "High"
-    },
-    "h1": {
-      "trend": "Bearish",
-      "rsi": 46.9,
+      "rsi": 51.6,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Normal"
     },
+    "h1": {
+      "trend": "Bearish",
+      "rsi": 45.5,
+      "rsi_label": "Neutral",
+      "macd": "Bullish",
+      "volume": "High"
+    },
     "h4": {
       "trend": "Bearish",
-      "rsi": 29.2,
+      "rsi": 27.9,
       "rsi_label": "Oversold",
       "macd": "Bullish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 16.0,
+      "rsi": 15.4,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -65,7 +65,7 @@
       "label": "Neutral"
     },
     "dominance": {
-      "btc": 56.2,
+      "btc": 56.1,
       "eth": 8.7
     }
   },

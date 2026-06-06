@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1552.24,
-  "change_24h": -1.81,
+  "price": 1552.13,
+  "change_24h": -1.82,
   "levels": {
     "support": [
       2046.42,
@@ -16,7 +16,7 @@
     "range_low": 1512.37
   },
   "verdict": "REDUCE",
-  "score": -1.4,
+  "score": -1.15,
   "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.4 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.004%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.2%.",
   "moomoo": {
     "can_hold": false,
@@ -27,7 +27,7 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 44.2,
+      "rsi": 44.1,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
       "volume": "Low"
@@ -37,7 +37,7 @@
       "rsi": 40.7,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Low"
+      "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

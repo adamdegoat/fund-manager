@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1564.15,
-  "change_24h": -1.06,
+  "price": 1561.52,
+  "change_24h": -1.22,
   "levels": {
     "support": [
       2046.42,
@@ -16,8 +16,8 @@
     "range_low": 1512.37
   },
   "verdict": "REDUCE",
-  "score": -0.49,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.004%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -31.7%.",
+  "score": -0.39,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.004%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -31.8%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 52.5,
+      "rsi": 50.4,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 43.3,
+      "rsi": 42.6,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Low"
+      "volume": "Normal"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.8,
+      "rsi": 19.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 12.6,
+      "rsi": 12.5,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 4,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -86,14 +86,14 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Crypto's worst week since July 2024 deepens as bitcoin, ether near critical price levels",
-      "url": "https://www.coindesk.com/markets/2026/06/05/crypto-s-worst-week-since-july-2024-deepens-as-bitcoin-ether-near-critical-price-levels",
-      "sentiment": "neutral"
-    },
-    {
       "title": "ETH falls to 13-month low on Zcash bug news and Bitcoin drop to sub-$60K: Is $1.4K next?",
       "url": "https://cointelegraph.com/markets/eth-falls-to-13-month-low-on-zcash-bug-news-and-bitcoin-drop-to-sub-60k-is-14k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "sentiment": "negative"
+    },
+    {
+      "title": "Tom Lee's Ethereum Treasury BitMine Prices Preferred Shares With 9.5% Dividend",
+      "url": "https://decrypt.co/370188/tom-lees-ethereum-treasury-bitmine-prices-preferred-shares",
+      "sentiment": "neutral"
     }
   ]
 }

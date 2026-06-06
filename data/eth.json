@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1559.13,
-  "change_24h": -1.37,
+  "price": 1563.2,
+  "change_24h": -1.12,
   "levels": {
     "support": [
       2046.42,
@@ -17,7 +17,7 @@
   },
   "verdict": "REDUCE",
   "score": -0.94,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.004%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -31.9%.",
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.6 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.004%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -31.8%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 51.6,
-      "rsi_label": "Neutral",
+      "rsi": 55.8,
+      "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 43.2,
+      "rsi": 44.7,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 19.8,
+      "rsi": 21.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Low"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 12.5,
+      "rsi": 12.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 3,
+      "fast_fee": 4,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
@@ -81,6 +81,11 @@
   },
   "news": [
     {
+      "title": "Bitcoin, ether eye worst weekly rout since FTX collapse as cryptos shed $390 billion",
+      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion",
+      "sentiment": "neutral"
+    },
+    {
       "title": "Alsobrooks says Clarity Act needs ethics deal before Senate vote",
       "url": "https://www.coindesk.com/coindesk-news/2026/06/05/alsobrooks-says-clarity-act-needs-ethics-deal-before-senate-vote",
       "sentiment": "neutral"
@@ -89,11 +94,6 @@
       "title": "ETH falls to 13-month low on Zcash bug news and Bitcoin drop to sub-$60K: Is $1.4K next?",
       "url": "https://cointelegraph.com/markets/eth-falls-to-13-month-low-on-zcash-bug-news-and-bitcoin-drop-to-sub-60k-is-14k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "sentiment": "negative"
-    },
-    {
-      "title": "Tom Lee's Ethereum Treasury BitMine Prices Preferred Shares With 9.5% Dividend",
-      "url": "https://decrypt.co/370188/tom-lees-ethereum-treasury-bitmine-prices-preferred-shares",
-      "sentiment": "neutral"
     }
   ]
 }

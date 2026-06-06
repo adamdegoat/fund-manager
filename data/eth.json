@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1557.58,
-  "change_24h": -1.47,
+  "price": 1560.18,
+  "change_24h": -1.31,
   "levels": {
     "support": [
       2046.42,
@@ -16,8 +16,8 @@
     "range_low": 1512.37
   },
   "verdict": "REDUCE",
-  "score": -0.32,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.0%.",
+  "score": -0.57,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -31.9%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,21 +27,21 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 46.1,
+      "rsi": 48.0,
       "rsi_label": "Neutral",
       "macd": "Bullish",
       "volume": "Low"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 41.2,
+      "rsi": 42.1,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "High"
+      "volume": "Low"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 18.0,
+      "rsi": 18.6,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
@@ -71,11 +71,11 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 2,
+      "fast_fee": 3,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
-      "hashrate_th": 0.2,
+      "hashrate_th": 0.1,
       "label": "0 TH/s"
     }
   },

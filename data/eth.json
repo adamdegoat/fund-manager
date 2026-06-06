@@ -1,8 +1,8 @@
 {
   "symbol": "ETH",
   "etf": "ETHA",
-  "price": 1557.67,
-  "change_24h": -1.47,
+  "price": 1538.79,
+  "change_24h": -2.66,
   "levels": {
     "support": [
       2046.42,
@@ -16,8 +16,8 @@
     "range_low": 1512.37
   },
   "verdict": "REDUCE",
-  "score": -0.32,
-  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.5 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.0%.",
+  "score": -0.45,
+  "summary": "ETH is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 12.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 0th percentile of its 52-week range. 30-day price momentum: -32.8%.",
   "moomoo": {
     "can_hold": false,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Bearish",
-      "rsi": 42.7,
+      "rsi": 34.7,
       "rsi_label": "Weak Momentum",
       "macd": "Bearish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "h1": {
       "trend": "Bearish",
-      "rsi": 39.4,
+      "rsi": 36.4,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
-      "volume": "Normal"
+      "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 18.0,
+      "rsi": 17.0,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 12.5,
+      "rsi": 12.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "High"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 1,
+      "fast_fee": 2,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {

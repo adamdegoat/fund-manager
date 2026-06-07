@@ -1,8 +1,8 @@
 {
   "symbol": "BTC",
   "etf": "IBIT",
-  "price": 61404.0,
-  "change_24h": 0.79,
+  "price": 61478.04,
+  "change_24h": 0.91,
   "levels": {
     "support": [
       72481.86,
@@ -17,7 +17,7 @@
   },
   "verdict": "HOLD",
   "score": 0.88,
-  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 17.7 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -23.2%.",
+  "summary": "BTC is trading below its key moving averages \u2014 downtrend intact. RSI is deeply oversold at 18.1 \u2014 historically a mean-reversion opportunity. Price is near the lower Bollinger Band \u2014 statistically oversold territory. Perpetual funding rate is neutral (-0.003%). Market sentiment: extreme fear (12/100). Price sits at the 1th percentile of its 52-week range. 30-day price momentum: -23.2%.",
   "moomoo": {
     "can_hold": true,
     "can_add": false,
@@ -27,28 +27,28 @@
   "tf_table": {
     "m15": {
       "trend": "Mixed",
-      "rsi": 66.1,
+      "rsi": 67.9,
       "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h1": {
       "trend": "Mixed",
-      "rsi": 57.1,
+      "rsi": 58.0,
       "rsi_label": "Bullish Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "h4": {
       "trend": "Bearish",
-      "rsi": 35.4,
+      "rsi": 36.1,
       "rsi_label": "Weak Momentum",
       "macd": "Bullish",
       "volume": "High"
     },
     "daily": {
       "trend": "Bearish",
-      "rsi": 17.7,
+      "rsi": 18.1,
       "rsi_label": "Oversold",
       "macd": "Bearish",
       "volume": "Normal"
@@ -71,7 +71,7 @@
   },
   "onchain": {
     "mempool": {
-      "fast_fee": 1,
+      "fast_fee": 2,
       "congestion": "Low \u2014 network quiet"
     },
     "hashrate": {
